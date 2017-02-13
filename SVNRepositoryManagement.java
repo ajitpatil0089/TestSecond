@@ -350,6 +350,7 @@ public class SVNRepositoryManagement implements RepositoryManagement {
 			if (commitInfo != null) {
 				final long newRevision = commitInfo.getNewRevision();
 				System.out.println("Removed a file, revision " + newRevision + " created");
+				System.out.println("here we made changes");
 			}
 		} finally {
 			svnOperationFactory.dispose();
