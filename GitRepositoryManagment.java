@@ -538,6 +538,7 @@ public class GitRepositoryManagment implements RepositoryManagement {
 		System.out.println("in main");
 		System.out.println("in main again");
 
+		System.out.println("in main for third time");
 		final String remoteRepo = "https://github.com/applifireAlgo/shoppingtwo.git";
 		final CloneCommand cloneCommand = Git.cloneRepository();
 
