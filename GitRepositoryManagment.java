@@ -535,6 +535,7 @@ public class GitRepositoryManagment implements RepositoryManagement {
 	public static void main(final String args[]) throws NoFilepatternException, GitAPIException, IOException
 
 	{
+		System.out.println("in main");
 		final String remoteRepo = "https://github.com/applifireAlgo/shoppingtwo.git";
 		final CloneCommand cloneCommand = Git.cloneRepository();
 
