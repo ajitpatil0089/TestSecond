@@ -352,6 +352,7 @@ public class SVNRepositoryManagement implements RepositoryManagement {
 				System.out.println("Removed a file, revision " + newRevision + " created");
 				System.out.println("here we made changes");
 				System.out.println("here we made changes second time");
+				System.out.println("here we made changes third time");
 
 			}
 		} finally {
